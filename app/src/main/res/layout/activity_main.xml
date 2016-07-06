@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@android:color/holo_green_light"
+    android:background="@android:color/black"
     tools:context="com.dl7.textview.MainActivity">
 
     <Button
@@ -17,12 +17,12 @@
         android:layout_height="wrap_content"
         android:text="Run"/>
 
-    <com.dl7.textview.animtext.TestTextView
+    <com.dl7.textview.animtext.ScaleTextView
         android:id="@+id/text_view"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_gravity="center_vertical|left"
         android:textColor="@android:color/white"
         android:textSize="16sp"
-        android:text="Hello World!"/>
+        android:text="Show me the money!"/>
 </FrameLayout>
